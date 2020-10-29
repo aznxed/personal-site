@@ -201,7 +201,7 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started,
-#intro .intro-info .btn-services {
+#intro .intro-info .btn-projects {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -226,11 +226,11 @@ h6 {
   color: #fff;
 }
 
-#intro .intro-info .btn-services {
+#intro .intro-info .btn-projects {
   border: 2px solid #fff;
 }
 
-#intro .intro-info .btn-services:hover {
+#intro .intro-info .btn-projects:hover {
   background: #007bff;
   border-color: #007bff;
   color: #fff;
@@ -581,15 +581,15 @@ h6 {
   font-size: 24px;
 }
 
-/* Services Section
+/* Projects Section
 --------------------------------*/
 
-#services {
+#projects {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
-#services .box {
+#projects .box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -600,39 +600,39 @@ h6 {
   transition: all 0.3s ease-in-out;
 }
 
-#services .box:hover {
+#projects .box:hover {
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
 }
 
-#services .icon {
+#projects .icon {
   position: absolute;
   left: -10px;
   top: calc(50% - 32px);
 }
 
-#services .icon i {
+#projects .icon i {
   font-size: 64px;
   line-height: 1;
   transition: 0.5s;
 }
 
-#services .title {
+#projects .title {
   margin-left: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-#services .title a {
+#projects .title a {
   color: #111;
 }
 
-#services .box:hover .title a {
+#projects .box:hover .title a {
   color: #007bff;
 }
 
-#services .description {
+#projects .description {
   font-size: 14px;
   margin-left: 40px;
   line-height: 24px;
