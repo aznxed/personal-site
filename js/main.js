@@ -98,6 +98,12 @@
     time: 1000
   });
 
+  var $grid = $('.portfolio-container').isotope({
+    filter: '.filter-bwh'
+  });
+  $('#default-project').addClass('filter-active');
+
+
   // Porfolio isotope and filter
   $(window).on('load', function () {
     var portfolioIsotope = $('.portfolio-container').isotope({
