@@ -103,7 +103,6 @@
   });
   $('#default-project').addClass('filter-active');
 
-
   // Porfolio isotope and filter
   $(window).on('load', function () {
     var portfolioIsotope = $('.portfolio-container').isotope({
