@@ -392,32 +392,9 @@ h6 {
   padding: 0 0 0 0;
 }
 
-@media (max-width: 768px) {
-  .portfolio-details .portfolio-description h2 {
-    width: 100%;
-  }
-  .portfolio-details .portfolio-info {
-    position: static;
-    margin-top: 30px;
-  }
-}
-
-@media (max-width: 767px) {
-  #portfolio .testimonial-item {
-    text-align: center;
-  }
-}
-
 #portfolio .testimonial-item .testimonial-img {
   height: 120px;
   float: left;
-}
-
-@media (max-width: 767px) {
-  #portfolio .testimonial-item .testimonial-img {
-    float: none;
-    margin: auto;
-  }
 }
 
 #portfolio .testimonial-item h3 {
@@ -425,30 +402,18 @@ h6 {
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
-  margin-left: 140px;
+  margin-left: 15px;
 }
 
 #portfolio .testimonial-item h4 {
   font-size: 14px;
   color: #999;
   margin: 0 0 15px 0;
-  margin-left: 140px;
+  margin-left: 15px;
 }
 
 #portfolio .testimonial-item p {
-  margin: 0 0 15px 140px;
-}
-
-@media (min-width: 992px) {
-  #portfolio .testimonial-item p {
-    width: 80%;
-  }
-}
-
-@media (max-width: 767px) {
-  #portfolio .testimonial-item h3, #portfolio .testimonial-item h4, #portfolio .testimonial-item p {
-    margin-left: 0;
-  }
+  margin: 0 0 15px 15px;
 }
 
 #portfolio .owl-nav, #portfolio .owl-dots {
@@ -1379,5 +1344,42 @@ h6 {
 @media (max-width: 574px) {
   #intro {
     padding: 100px 0 20px 0;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .portfolio-details .portfolio-description h2 {
+    width: 100%;
+  }
+  .portfolio-details .portfolio-info {
+    position: static;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  #portfolio .testimonial-item {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  #portfolio .testimonial-item .testimonial-img {
+    float: none;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  #portfolio .testimonial-item p {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  #portfolio .testimonial-item h3, #portfolio .testimonial-item h4, #portfolio .testimonial-item p {
+    margin-left: 0;
   }
 }
