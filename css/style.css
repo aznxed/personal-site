@@ -394,7 +394,13 @@ h6 {
 
 #portfolio .testimonial-item .testimonial-img {
   height: 120px;
-  float: left;
+
+}
+
+#portfolio .testimonial-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #portfolio .testimonial-item h3 {
