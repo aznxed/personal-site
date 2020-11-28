@@ -733,7 +733,6 @@ h6 {
 
 .section-header h3 {
   font-size: 36px;
-  color: #283d50;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -744,7 +743,6 @@ h6 {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #556877;
   width: 50%;
 }
 
